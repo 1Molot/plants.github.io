@@ -595,6 +595,10 @@ details {
     background-color: #EDF2EC;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact__container {
@@ -602,11 +606,15 @@ details {
     /*height: 490px;*/
     height: auto;
     /*padding: 60px 109px 0 109px;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-        align-items: flex-start;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: space-between;*/
+    /*    align-items: flex-start;*/
 }
 
 ::marker {
@@ -1041,7 +1049,7 @@ details {
         right: 0;
         bottom: 0;
         background-color: rgba(171, 168, 168, 0.5);
-        height: 27vh;
+        height: 40vh;
         z-index: 5;
         text-align: center;
         padding-top: 50px;
